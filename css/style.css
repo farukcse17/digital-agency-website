@@ -1,4 +1,37 @@
+/* Global style */
 *{
     margin: 0;
     padding: 0;
+}
+
+/* Common styles */
+.primary-text{
+    font-size:18px;
+    font-weight: normal;
+}
+
+
+
+/* Header style section */
+#header-section{
+    background-color: lightgray;
+    padding: 20px 200px;
+}
+#header-section .nav{
+    display: flex;
+    justify-content: space-between;
+}
+#header-section .nav img{}
+#header-section .nav ul{
+    display: flex;
+    align-items: center;
+}
+#header-section .nav ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+#header-section .nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 19px;
 }
